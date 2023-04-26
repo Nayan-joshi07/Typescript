@@ -1,0 +1,11 @@
+npm init -y
+y flag it used for npm projects with all default setup.
+
+npm i parcel --save-dev
+We can use parcel to bundle our typescript files.
+
+npx parcel ./index.html 
+This Command will start the development server.
+
+npx parcel watch ./index.html
+This Command will watch the any changes you made it to.
